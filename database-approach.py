@@ -41,7 +41,7 @@ def handle_webhook():
         print(e)
         return 'Error'
 
-def random():
+def testing():
     global last_update_id
     last_update_id = -1
     while True:
@@ -948,4 +948,4 @@ def database_update(query, update, name):
 
 if __name__ == '__main__':
     app.run(debug=False)
-    #random()
+    #testing()
