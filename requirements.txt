@@ -1,0 +1,10 @@
+g4f
+gtts
+flask
+Pillow
+pymongo
+gunicorn
+requests
+curl_cffi
+assemblyai
+google-generativeai
