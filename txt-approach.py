@@ -43,7 +43,11 @@ def handle_webhook():
     except Exception as e:
         print(e)
         return 'Error'
-
+              
+@app.route('/activate', methods=['GET'])
+def activate():
+    return "Activation successful!", 200
+          
 def testing():
     global last_update_id
     last_update_id = -1
